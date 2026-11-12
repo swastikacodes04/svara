@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pakad_yaman_01",
+    "ragaId": "yaman",
+    "ragaName": "Yaman",
+    "tradition": "Hindustani",
+    "notation": "N. R G M+ D N S'",
+    "semitoneSequence": [-1, 2, 4, 6, 9, 11, 12],
+    "description": "Characteristic Kalyan Thaat ascent entering from lower Nishada (N.) through Tivra Madhyama (M+).",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_yaman_02",
+    "ragaId": "yaman",
+    "ragaName": "Yaman",
+    "tradition": "Hindustani",
+    "notation": "N. R G R S P M+ G R S",
+    "semitoneSequence": [-1, 2, 4, 2, 0, 7, 6, 4, 2, 0],
+    "description": "Canonical mukhda and descent resting on Ga and resolving to Sa.",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_bhairav_01",
+    "ragaId": "bhairav",
+    "ragaName": "Bhairav",
+    "tradition": "Hindustani",
+    "notation": "G M d P G M r S",
+    "semitoneSequence": [4, 5, 8, 7, 4, 5, 1, 0],
+    "description": "Signature Bhairav pakad highlighting Komal Dha (d) and Komal Re (r) around Shuddha Ma.",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_bhupali_01",
+    "ragaId": "bhupali",
+    "ragaName": "Bhupali",
+    "tradition": "Hindustani",
+    "notation": "G R S D. S R G P G D P G R S",
+    "semitoneSequence": [4, 2, 0, -3, 0, 2, 4, 7, 4, 9, 7, 4, 2, 0],
+    "description": "Pentatonic Audava phrase emphasizing Ga-Re-Sa and lower Dha.",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_malkauns_01",
+    "ragaId": "malkauns",
+    "ragaName": "Malkauns",
+    "tradition": "Hindustani",
+    "notation": "M g M d n d M g S",
+    "semitoneSequence": [5, 3, 5, 8, 10, 8, 5, 3, 0],
+    "description": "Core Malkauns phrase centered on Shuddha Ma with Komal Ga, Dha, and Ni.",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_bhimpalasi_01",
+    "ragaId": "bhimpalasi",
+    "ragaName": "Bhimpalasi",
+    "tradition": "Hindustani",
+    "notation": "n. S M g P M g R S",
+    "semitoneSequence": [-2, 0, 5, 3, 7, 5, 3, 2, 0],
+    "description": "Bhimpalasi characteristic climb from Komal Ni to Ma followed by full descent.",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_desh_01",
+    "ragaId": "desh",
+    "ragaName": "Desh",
+    "tradition": "Hindustani",
+    "notation": "R M P N S' R' n D P M G R",
+    "semitoneSequence": [2, 5, 7, 11, 12, 14, 10, 9, 7, 5, 4, 2],
+    "description": "Dual-Nishad movement ascending via Shuddha Ni and descending via Komal Ni.",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_kafi_01",
+    "ragaId": "kafi",
+    "ragaName": "Kafi",
+    "tradition": "Hindustani",
+    "notation": "S R g M P D P g R S",
+    "semitoneSequence": [0, 2, 3, 5, 7, 9, 7, 3, 2, 0],
+    "description": "Kafi Thaat hallmark phrase pairing Shuddha Re and Dha with Komal Ga.",
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "pakad_darbari_01",
+    "ragaId": "darbari_kanada",
+    "ragaName": "Darbari Kanada",
+    "tradition": "Hindustani",
+    "notation": "d. n. S R g M R S",
+    "semitoneSequence": [-4, -2, 0, 2, 3, 5, 2, 0],
+    "description": "Lower-octave approach and characteristic Kanada vakra descent (g M R S).",
+    "verificationStatus": "Verified"
+  }
+]

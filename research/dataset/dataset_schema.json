@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SVARA Research Recording Metadata Schema",
+  "description": "Metadata manifest schema for CompMusic, Saraga, and curated Hindustani/Carnatic Raga research splits.",
+  "type": "object",
+  "required": [
+    "recording_id",
+    "source",
+    "raga_label",
+    "tradition",
+    "instrument_or_vocal",
+    "duration_sec",
+    "sample_rate_hz",
+    "split",
+    "licensing_conditions"
+  ],
+  "properties": {
+    "recording_id": {
+      "type": "string",
+      "description": "Immutable source recording identifier (never split clips of the same recording_id across train/val/test)."
+    },
+    "clip_id": {
+      "type": "string",
+      "description": "Optional excerpt identifier linked back to recording_id."
+    },
+    "source": {
+      "type": "string",
+      "enum": ["CompMusic_Hindustani", "CompMusic_Carnatic", "Saraga_Hindustani", "Saraga_Carnatic", "Custom_Curated"]
+    },
+    "raga_label": {
+      "type": "string",
+      "description": "Canonical Raga identifier matching server/data/ragas.json where applicable."
+    },
+    "tradition": {
+      "type": "string",
+      "enum": ["Hindustani", "Carnatic"]
+    },
+    "performer_id": {
+      "type": ["string", "null"],
+      "description": "Optional performer/artist ID used to enforce performer-disjoint evaluation splits."
+    },
+    "instrument_or_vocal": {
+      "type": "string",
+      "enum": ["vocal", "sitar", "sarod", "bansuri", "violin", "veena", "sarangi", "other_melodic"]
+    },
+    "duration_sec": {
+      "type": "number",
+      "minimum": 1.0
+    },
+    "sample_rate_hz": {
+      "type": "integer",
+      "minimum": 8000
+    },
+    "tonic_hz": {
+      "type": ["number", "null"],
+      "description": "Ground-truth annotated tonic (Sa) frequency in Hz, if provided by source dataset."
+    },
+    "split": {
+      "type": "string",
+      "enum": ["train", "validation", "test"]
+    },
+    "licensing_conditions": {
+      "type": "string",
+      "description": "Research license terms (e.g., CC BY-NC-SA 4.0 / Dunya non-commercial academic use)."
+    }
+  }
+}

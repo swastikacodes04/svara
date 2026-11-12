@@ -1,0 +1,8 @@
+{
+  "name": "SVARA",
+  "description": "SVARA — Discover the Raga Behind Every Melody. AI-powered Indian classical music analysis platform for tonic estimation, F0 pitch contour extraction, Gamaka descriptors, Pakad matching, and explainable Raga classification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
